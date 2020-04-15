@@ -1,0 +1,47 @@
+{
+  "name": "BlankProcess1",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.8.3-beta.851189]",
+    "UiPath.Mail.Activities": "[1.8.3-beta.850998]",
+    "UiPath.System.Activities": "[20.4.0-beta.850545]",
+    "UiPath.UIAutomation.Activities": "[20.4.0-beta.853586]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7c94d6a4-f0cb-4bb3-a9e2-e2f1bdd3d7e9",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e4f689d4-77e1-4b52-b88f-2ec233605bad",
+        "fileName": "TestCase1.xaml"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic"
+}
